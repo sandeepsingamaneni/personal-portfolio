@@ -33,14 +33,6 @@ h1 {
   text-align: center;
 }
 
-.grid-item {
-  padding: 10px;
-  background-color: var(--purple);
-  color: var(--white);
-  font-size: 2em;
-  text-align: center;
-}
-
 .homediv {
   text-align: center;
   color: var(--white);
@@ -134,7 +126,7 @@ h1 {
   border: 2px solid;
   border-collapse: collapse;
   width: 320px;
-  height: 1000px;
+  height: 1100px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
@@ -158,6 +150,12 @@ h1 {
     display: flex;
     flex-direction: column;
   }
+  .job {
+    transform: rotate(90deg);
+  }
+  .skills {
+    text-align: left;
+  }
 }
 .expdiv {
   text-align: center;
@@ -165,4 +163,40 @@ h1 {
   font-size: 2em;
   padding: 15px;
   margin-bottom: 2px;
+}
+.job {
+  border-left: 3px solid black;
+  height: 230px;
+  position: absolute;
+  margin-left: -3px;
+  left: 55%;
+  margin-top: 10px;
+}
+.company {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.jobtitle {
+  text-align: left;
+  font-weight: bold;
+}
+.time {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.desc {
+  text-align: left;
+  font-size: 0.5em;
+}
+.skills {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.slist {
+  text-align: left;
+  font-size: 0.5em;
+  margin-left: 50px;
 }
