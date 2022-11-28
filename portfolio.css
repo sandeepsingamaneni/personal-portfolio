@@ -133,9 +133,19 @@ h1 {
   margin-top: 5px;
 }
 
-@media (min-width: 414px) and (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 768px) {
   .homediv {
-    height: 300px;
+    height: 330px;
+  }
+  .projectdiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .homediv {
+    height: 330px;
   }
   .projectdiv {
     display: flex;
