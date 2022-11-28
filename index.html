@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal-Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script defer src="portfolio.js"></script>
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <h1 class="navbar-brand">Sandeep Singamaneni</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+            aria-controls="nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work-exp">Work Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home">
+        <div class="homediv container-fluid">
+          Welcome To My Portfolio!!!
+          <nav>
+            <div class="mediadiv">
+              <h2 class="socialmedia">Let Us Connect On Social Networks</h2>
+              <ul class="navlist">
+                <li class="navitem">
+                  <a
+                    class="navlink"
+                    href="https://www.linkedin.com/in/sandeep-singamaneni-b0869521a/"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="navitem">
+                  <a
+                    class="navlink"
+                    href="https://github.com/sandeepsingamaneni"
+                    >GitHub</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="about">
+        <div class="aboutdiv container-fluid" id="about-me">
+          My Introduction
+          <img class="image" src="Sandeep.jpg" alt="Sandeep-Bio" />
+          <p class="paragraph">
+            Hello! This is Sandeep. I'm currently pursuing my Master's in CS at
+            Portland State University. I have previously worked in banking
+            industry and I aspire to be a Software Engineer after the completion
+            of my studies. Currently I am learning Python along with Algorithms
+            and Data Structures. I used Python for ETL and created a data base
+            application which consists of World Transit Systems data. I had used
+            Python as my primary language for the course work in AI and ML. I
+            wish to use my problem solving and logical thinking skills along
+            with my communication skills gained from my work experience to
+            design and develop computer software. In my free time, I would like
+            to travel and explore new places.
+          </p>
+        </div>
+      </section>
+      <hr class="line" />
+      <div class="projecttitle" id="projects"><h1>My Projects</h1></div>
+      <div class="projectdiv container-fluid">
+        <section class="projects">
+          <div class="row">
+            <div class="column">
+              <img class="img" src="dbproj.jpg" alt="TransitSystems" />
+              <h4 class="proj">World Transit Systems</h4>
+              <p class="paragraph">
+                Transit Systems of world database consists of different datasets
+                (csv format). The source of the data is from Kaggle. The
+                database contains information about transportation line data
+                from a number of cities around the world including London,
+                Berlin, Mexico City, Barcelona, Washington D.C., and others
+                covering many thousands of kilometers of lines including
+                corresponding cities and systems.It also includes station names
+                and tracks for those cities.
+              </p>
+              <h5 class="time">Technology used</h5>
+              <ul class="desc">
+                <li>Python, PostgreSQL</li>
+              </ul>
+              <a
+                class="git"
+                href="https://github.com/sandeepsingamaneni/CS586WorldTransitSystems"
+              >
+                GitHub Link
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects">
+          <div class="row">
+            <div class="column">
+              <img class="img" src="tb.jpg" alt="TbDetection" />
+              <h4 class="proj">TB Detection From Chest X-ray</h4>
+              <p class="paragraph">
+                In this project, On Tuberculosis data, we offer a machine
+                learning technique to compare the performance of K Nearest
+                Neighbors and an ensemble of classifiers. Real data was used to
+                train the categorization models. We have used Local KNN,
+                Weighted KNN and Gradient Boosting to predict the disease in
+                patients and we have compared their accuracies and found the
+                best for our problem. The classifiers' prediction accuracy was
+                assessed using k-fold Cross Validation, and the results were
+                compared to determine the best prediction accuracy.
+              </p>
+              <h5 class="time">Technology used</h5>
+              <ul class="desc">
+                <li>Python libraries : Scipy, Sklearn, NumPy</li>
+              </ul>
+              <a
+                class="git"
+                href="https://github.com/sandeepsingamaneni/TBDetection-From-ChestXray-ML"
+              >
+                GitHub Link
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <div class="row">
+            <div class="column">
+              <img class="img" src="sma.jpg" alt="SocialMediaAgg" />
+              <h4 class="proj">Social Media Aggregator</h4>
+              <p class="paragraph">
+                This project presents the final high-fidelity interface
+                prototype for our mobile social media aggregator app and
+                discusses the justification of design decisions based on our
+                initial research, design principles, analytical and empirical
+                evaluations for the prototype. This was done in order to address
+                usability problems with modern social media platforms and
+                improve the experience for users of multiple social media
+                platforms.
+              </p>
+              <h5 class="time">Technology used</h5>
+              <ul class="desc">
+                <li>Balsamiq for wireframes</li>
+              </ul>
+              <a
+                class="git"
+                href="https://github.com/sandeepsingamaneni/UESocialMediaAggregator"
+              >
+                GitHub Link
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <hr class="line" />
+      <div class="expdiv container-fluid" id="work-exp">
+        My Work Experience
+        <h3 class="company">Office Of Information Technology, PSU</h3>
+
+        <h4 class="jobtitle">Helpdesk Student Technician</h4>
+        <h5 class="time">June 2022 - Present</h5>
+        <ul class="desc">
+          <li>
+            Provided general technical support for PSU faculty,staff and
+            students
+          </li>
+          <li>Provided timely, thorough and professional customer service</li>
+          <li>
+            Troubleshooted technology issues and documented customer requests
+          </li>
+          <li>Worked collaboratively in a team-oriented environment</li>
+        </ul>
+        <h5 class="skills">Skills Acquired</h5>
+        <ul class="slist">
+          <li>
+            Jira, Confluence, Atlassian, Banner, Datamaster, MacOS, Windows OS
+          </li>
+        </ul>
+        <hr class="line" />
+        <h3 class="company">Union Bank Of India</h3>
+
+        <h4 class="jobtitle">Manager</h4>
+        <h5 class="time">Nov 2017 - Nov 2021</h5>
+        <ul class="desc">
+          <li>
+            Extracted various reports and created dashboards to analyze the
+            trends in performance
+          </li>
+          <li>
+            Communicated with clients to understand the requirements and
+            documented them
+          </li>
+          <li>
+            Used knowledge of Computer Science effectively to achieve results in
+            banking domain
+          </li>
+          <li>
+            Worked consistently on the business development methodology and
+            increased customer satisfaction
+          </li>
+        </ul>
+        <h5 class="skills">Skills Acquired</h5>
+        <ul class="slist">
+          <li>
+            Finacle 10, RDBMS, Tableau, Time Management, Leadership, Conflict
+            resolution
+          </li>
+        </ul>
+        <hr class="line" />
+        <h3 class="company">Wipro Technologies Ltd, India</h3>
+
+        <h4 class="jobtitle">Project Engineer</h4>
+        <h5 class="time">June 2015 - Jan 2017</h5>
+        <ul class="desc">
+          <li>Played keyrole in application support as consultant in EDI</li>
+          <li>
+            Contributed to continuos improvement and quality assurance tasks
+          </li>
+          <li>
+            Used Ticketing software to address technical issues and guided users
+            through end resolution
+          </li>
+          <li>
+            Worked in Agile workflow and developed software in JD Edwards
+            Enterprise One ERP tool
+          </li>
+        </ul>
+        <h5 class="skills">Skills Acquired</h5>
+        <ul class="slist">
+          <li>
+            JDEdwards EOne, EDI, Agile, Application development and Support,
+            consultant
+          </li>
+        </ul>
+      </div>
+      <hr class="line" />
+      <div class="contacttitle"><h1>Contact Me</h1></div>
+      <p class="contacttext">
+        To get in touch with me, please fill the form below
+      </p>
+      <div class="contactdiv container-fluid" id="contact-me">
+        <form id="contactme" action="portfolio.html">
+          <div class="mb-3 row">
+            <div class="col">
+              <label for="name" class="col-sm-4 col-form-label">Name</label>
+
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Please Type Your Name"
+              />
+            </div>
+
+            <div class="col">
+              <label for="email" class="col-sm-4 col-form-label">Email</label>
+
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Please Type Your Email"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="col-sm-4 col-form-label">Message</label>
+
+            <textarea
+              type="text"
+              class="form-control"
+              id="message"
+              placeholder="Please Leave Your Message"
+              style="height: 5rem"
+              ;
+            ></textarea>
+          </div>
+
+          <div class="group-buttons">
+            <input type="submit" class="btn-primary" value="Submit" />
+            <input type="reset" class="btn-secondary" value="Reset" />
+          </div>
+        </form>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid footer">
+          <p>&copy 2022 Sandeep Singamaneni</p>
+          <p>Time is : <span id="time"></span></p>
+        </div>
+      </nav>
+    </main>
+  </body>
+</html>
