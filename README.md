@@ -10,9 +10,32 @@ Download all the files as Zip folder in your local machine. Then unzip and run p
 
 ## References
 
-1. https://getbootstrap.com/docs/5.0/components/navbar/
-2. HTML: https://developer.mozilla.org/en-US/docs/Learn/HTML
-3. CSS: https://developer.mozilla.org/en-US/docs/Learn/CSS
-4. Bootstrap: https://getbootstrap.com/
-5. https://www.w3schools.com/jsref/jsref_obj_date.asp
+1. HTML: https://developer.mozilla.org/en-US/docs/Learn/HTML
+2. CSS: https://developer.mozilla.org/en-US/docs/Learn/CSS
+3. https://getbootstrap.com/docs/5.0/components/navbar/
+4. https://getbootstrap.com/docs/4.0/utilities/spacing/
+5. https://getbootstrap.com/docs/4.0/components/forms/
 6. https://getbootstrap.com/docs/4.0/components/buttons/
+7. https://www.tutorialspoint.com/javascript/javascript_page_refresh.htm
+8. Image references :
+
+   1. For DB project: https://storage.googleapis.com/kaggle-datasets-
+      images/1368/2463/93a5cd082d5a1710d579311678985579/dataset-
+      cover.jpg
+
+   2. For ML project: https://clinmedjournals.org/articles/jfmdp/jfmdp-4-
+      073-002.gif
+
+   3. For UE project: https://blog.contentstudio.io/wp-
+      content/uploads/2022/02/Rss-Feed-Readers.jpg
+
+   4. For body background : https://www.kibrispdr.org/data/12/background-
+      png-images-for-websites-42.png
+
+   5. For Welcome Image: https://media.istockphoto.com/vectors/seamless-
+      black-wooden-background-vector-vector-id1064251088?b=1&k=6&m=1064251088&s=170x170&h=qWbquMG7fazabRK3URG9OOK_SDr_ZAYlYPQMg33gDR8=
+
+9. Checking unnecessary CSS: https://uncss-online.com.
+10. I also referenced our class lectures and my Homework submissions. I had
+    also gone through the previous websites of grad students shared in project
+    requirements document and got a general idea of how should a website look like.
