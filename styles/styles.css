@@ -1,0 +1,45 @@
+/* Define custom color variables */
+:root {
+  --indigo: #1773ff;         /* Custom indigo color */
+  --light-grey: #f9f9f9;     /* Custom light grey color */
+}
+
+/* Set body positioning */
+body {
+  position: relative;        /* Body positioned relative */
+}
+
+/* Branding styles */
+.brand {
+  color: var(--indigo);      /* Brand color using custom indigo */
+}
+
+/* About Me section styles */
+.about-me {
+  background-color: var(--light-grey); /* Background color using custom light grey */
+  font-size: 1.15rem;        /* Font size for About Me section */
+}
+
+/* Media query for small screens */
+@media (max-width: 414px) {
+  .graphic-1 {
+    display: none;           /* Hide graphic-1 on screens <= 414px wide */
+  }
+}
+
+/* Styles for dark mode */
+.dark-mode {
+  background-color: #333;    /* Dark mode background color */
+  color: #fff;               /* Dark mode text color */
+}
+
+/* Visible element styles */
+.visible {
+  display: block;            /* Display as block */
+  background-color: #333;    /* Background color for visible elements (adjust as needed) */
+}
+
+/* Navigation item styles for dark mode */
+.navigation-item-dark {
+  background-color: var(--indigo); /* Background color for navigation item in dark mode */
+}
