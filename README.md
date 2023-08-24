@@ -4,7 +4,7 @@
 
 Improved the codebase as part of the course Code reading and review. The previous version of the project contains all the styling in CSS file and it makes the code hard to maintain. Also there were few issues in the web responsiveness. Another modification from original code base is adding JavaScript functions to implement dynamic functionality. Added comments and updated class and ID names to reflect the true purpose of the code. 
 
-The original codebase can be found at - https://github.com/sandeepsingamaneni/personal-portfolio
+The deployed site can be found at - https://sandeepsingamaneni.github.io/personal-portfolio/
 
 ## How To Run
 
